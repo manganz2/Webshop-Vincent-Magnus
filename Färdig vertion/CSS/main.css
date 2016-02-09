@@ -1,0 +1,290 @@
+#header img{
+	width: 90px;
+	height: 90px;
+	margin-left: 10px;
+	margin-top: 10px;
+	-webkit-filter: brightness(85%);
+	transition: all 0.6s;
+
+}
+/* Vi gav hela menyn och namn och loggan namnet header och jobbade efter de, Loggan får en hover effect där ljusstyrkan och storleken förändras. 
+.test används innan vi använder hover för att testa. */
+#header img:hover{
+	-webkit-filter:brightness(100%);
+	transition: all 0.6s;
+	transform:scale(1.2);
+}
+.test{
+	-webkit-filter:brightness(100%);
+}
+#header h1 a{
+	text-decoration: none;
+	color:#cc9900;
+    text-shadow: 5px 5px #997300;
+}
+
+
+#header h1{
+	text-align: center;
+	margin-top: -125px;
+	font-family: wasted;
+	font-size: 50px;
+	color: #cc9900;
+	background: linear-gradient(#1a0000, #660000);
+	margin-right: -8px;
+	margin-left: -10px;
+	padding-top: 55px;
+	padding-bottom: 25px;
+}
+@font-face{
+	font-family: wasted;
+	src: url(../wildcard3.ttf);
+}
+/* Det man ser här är våran infogade font som används i bland annat namnet på hemsidan */
+
+.products img{
+	-webkit-filter: brightness(5%);
+          transition: all 0.3s;
+          width: 120px;
+          height: 100px;
+
+}
+
+/* Eftersom att vi först trodde att produkterna skulle vara våran startsida så är de först i css, vi testade så många effekter med hover som vi kunde hitta vilket 
+kan bli lite rörigt men det var bara för att lära oss */
+
+
+.products img:hover{
+	-webkit-filter: brightness(100%);
+		transform:scale(1.05);
+
+
+}
+
+.products div{
+	border-width: 8px;
+	border-radius: 20px;
+	border-color: #660000;
+	border-style: solid;
+	width: 120px;
+	float: left;
+	margin-left: 75px;
+	margin-top: 50px;
+	background: linear-gradient(#595959, #1a1a1a);
+	transition: all 0.5s;
+}
+.products div:hover{
+	border-color: #4d0000;
+	background: linear-gradient( #4d4d4d,#0d0d0d);
+	border-width: 8px;
+	border-radius: 25px;
+	transform:scale(1.1);
+	transition: all 1.0s;
+		-webkit-box-shadow: 0 0 80px #000000; 
+}
+.products a{
+	text-decoration: none;
+}
+.products p{
+	text-align: center;
+	font-size: 20px;
+	color: #cc9900;
+	font-family: serif;
+}
+
+body{
+	background: radial-gradient(#999999, #1a1a1a)
+}
+/* backgrounden är en specialgjord färgschema som är rundat och ger en cool effect mellan grå och vit */
+.search{
+	position: absolute;
+	margin-left: 74%;
+	z-index: 999;
+	margin-top: -110px;
+}
+
+.search div{
+	font-size: 20px;
+	font-family: tahoma;
+	color: #cc9900;
+}
+.runda{
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+.konto {
+	position: absolute;
+	margin-left: 74%;
+	z-index: 999;
+	margin-top: -60px;
+	color: #cc9900;
+	font-size: 17px;
+	font-family: tahoma;
+}
+.konto input{
+	width: 70px;
+}
+.dollar{
+	color: green;
+	font-size: 30px;
+}
+
+/* De man ser över här är de som vissas bredvid våran header och är tex en sökbar och konot information. Vi använder css på input vilket är en sak
+som är bra att lära sig. */
+.model1 img{
+	margin-left: -10px;
+	margin-top: 70px;
+	float: left;
+	-moz-box-shadow: 0 0 80px #000000; 
+	-webkit-box-shadow: 0 0 80px #000000; 
+	box-shadow: 0 0 80px #000000; 
+		-webkit-filter: brightness(100%);
+	border-radius: 50px;
+}
+.model1 img:active{
+		-webkit-filter: brightness(60%);
+}
+
+.model2 img{
+	margin-left: 40px;
+	margin-top: 70px;
+	-moz-box-shadow: 0 0 80px #000000; 
+	-webkit-box-shadow: 0 0 80px #000000; 
+	box-shadow: 0 0 80px #000000; 
+			-webkit-filter: brightness(100%);
+		border-radius: 50px;
+}
+.model2 img:active{
+		-webkit-filter: brightness(60%);
+}
+
+.modelnamn1{
+	font-size: 30px;
+	margin-left: 22%;
+	margin-top: -35px;
+	color: #cc9900;
+	font-weight: bold;
+	float: left;
+}
+.modelnamn2{
+	font-size: 30px;
+	margin-left: 68%;
+	margin-top: -35px;
+	color: #cc9900;
+	font-weight: bold;
+}
+/* Efter man valt märke tas man till märkets modeler, css för dessa är mycket enklare och snyggare för att vissa att vi kan förstå den enklare designen. */
+
+
+.bil{
+	font-size: 30px;
+	font-family: tahoma;
+	position:relative;
+	color: #cc9900;
+	z-index: 999;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: -50px;
+	width:300px;
+	text-align: center;
+}
+/* det här är den sista produkt css;en och är för bilarna. mycket enkel css på den här men bildar ändå en snygg design */
+.team img{
+	width: 280px;
+	height: 186px;
+	margin-left: 70px;
+	margin-top: 90px;
+	padding-right: 0px;
+	box-shadow: 0 0 100px #000000; 
+}
+.team span{
+	font-size: 50px;
+	color: #cc9900;
+	font-family: Arial;
+	margin-left: 40px;
+	margin-top: 80px;
+	position: absolute;
+	text-decoration: underline;
+    text-shadow: 3px 3px #997300;
+}
+.contac{
+	margin-left: 100px;
+	margin-top: 165px;
+	float: left;
+	margin-bottom: 0px;
+}
+.contac span{
+	font-size: 15px;
+	font-family: Verdana;
+	color: white;
+	margin-left: 50px;
+
+}
+.contac a{
+	text-decoration: none;
+}
+.contac span:active{
+	color: #808080;
+}
+.iconslinks{
+	margin-top: 200px;
+}
+.aboutus{
+	margin-top: -110px;
+	margin-left: 390px;
+	margin-right: 300px;
+}
+.aboutus span{
+	font-size: 20px;
+	color: white;
+
+}
+.buy{
+	margin-left: 390px;
+	margin-top: 50px;
+}
+
+.buy span{
+	font-size: 50px;
+	font-family: Impact;
+	color: red;
+	background: #cc9900;
+}
+.buy span:active{
+	color: darkred;
+}
+.buy a{
+	text-decoration: none;
+}
+.buy2{
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: 50px;
+	background: white;
+}
+.buy2 span{
+	font-size: 50px;
+	color: red;
+}
+.contact {
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background: white;
+}
+.contact span{
+	font-size: 20px;
+	font-family: tahoma;
+	color: black;
+
+}
+.fjodor{
+	width: 50px;
+}
+.fjodor2{
+	margin-top: 30px;
+}
+.fjodor2 input{
+	margin-top: 50px;
+}
